@@ -14,12 +14,11 @@ struct EntryFiled: View {
     
     var body: some View {
         TextField("", text: $text)
-            .background(.blue)
-            .placeHolder(isShow: text.isEmpty, text: placeHolder, color: .black)
+            .placeHolder(isShow: text.isEmpty, text: placeHolder, color: .gray)
             .padding()
-//            .background(Color.lightBlueColor)
-//            .cornerRadius(10)
-//            .foregroundColor(.green)
+            .background(Color.lightBlueColor)
+            .cornerRadius(10)
+            .foregroundColor(.black)
     }
     
 }
@@ -44,12 +43,10 @@ struct PlaceholderStyle: ViewModifier {
         ZStack(alignment: .leading) {
             if showPlaceHolder {
                 Text(placeholder)
-                    .foregroundColor(.yellow)
+                    .foregroundColor(color)
             }
             content   // Only return the content view without changing the rendering view
-                .background(.green)
         }
-        .background(.red)
     }
 }
 

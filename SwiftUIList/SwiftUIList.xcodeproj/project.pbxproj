@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		811F6C972769A9CF00BBB6EF /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F6C962769A9CF00BBB6EF /* CollectionView.swift */; };
+		81427EE5276CEAC4001F9F0B /* StateProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81427EE4276CEAC4001F9F0B /* StateProperty.swift */; };
+		81427EE7276CFB87001F9F0B /* StateObjectWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81427EE6276CFB87001F9F0B /* StateObjectWrap.swift */; };
+		81427EE9276CFC37001F9F0B /* StateObjectWrapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81427EE8276CFC37001F9F0B /* StateObjectWrapViewModel.swift */; };
 		815099BB2763A709003C2B4E /* StaticList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815099BA2763A709003C2B4E /* StaticList.swift */; };
 		81904E2727643BA400AD4C62 /* LoginViModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81904E2627643BA400AD4C62 /* LoginViModel.swift */; };
 		81904E2927643C9400AD4C62 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81904E2827643C9400AD4C62 /* Model.swift */; };
+		819D48F52768C63200EF01EC /* SectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D48F42768C63200EF01EC /* SectionList.swift */; };
+		819D48F72768C70D00EF01EC /* SectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D48F62768C70D00EF01EC /* SectionViewModel.swift */; };
 		81A226152752024700985445 /* SwiftUIListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A226142752024700985445 /* SwiftUIListApp.swift */; };
 		81A226172752024700985445 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A226162752024700985445 /* ContentView.swift */; };
 		81A226192752024800985445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A226182752024800985445 /* Assets.xcassets */; };
@@ -20,6 +26,7 @@
 		81A226352752024800985445 /* SwiftUIListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A226342752024800985445 /* SwiftUIListUITests.swift */; };
 		81A226372752024800985445 /* SwiftUIListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A226362752024800985445 /* SwiftUIListUITestsLaunchTests.swift */; };
 		81A22644275204B100985445 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A22643275204B100985445 /* ListView.swift */; };
+		81C05DDC276A553900F29344 /* ObservedWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C05DDB276A553900F29344 /* ObservedWrappers.swift */; };
 		81D5EE102758862200F23FE6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D5EE0F2758862200F23FE6 /* Extension.swift */; };
 		81D5EE12275887D200F23FE6 /* CommenIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D5EE11275887D200F23FE6 /* CommenIView.swift */; };
 /* End PBXBuildFile section */
@@ -42,9 +49,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		811F6C962769A9CF00BBB6EF /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		81427EE4276CEAC4001F9F0B /* StateProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateProperty.swift; sourceTree = "<group>"; };
+		81427EE6276CFB87001F9F0B /* StateObjectWrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectWrap.swift; sourceTree = "<group>"; };
+		81427EE8276CFC37001F9F0B /* StateObjectWrapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectWrapViewModel.swift; sourceTree = "<group>"; };
 		815099BA2763A709003C2B4E /* StaticList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticList.swift; sourceTree = "<group>"; };
 		81904E2627643BA400AD4C62 /* LoginViModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViModel.swift; sourceTree = "<group>"; };
 		81904E2827643C9400AD4C62 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		819D48F42768C63200EF01EC /* SectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionList.swift; sourceTree = "<group>"; };
+		819D48F62768C70D00EF01EC /* SectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewModel.swift; sourceTree = "<group>"; };
 		81A226112752024700985445 /* SwiftUIList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A226142752024700985445 /* SwiftUIListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListApp.swift; sourceTree = "<group>"; };
 		81A226162752024700985445 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +71,7 @@
 		81A226342752024800985445 /* SwiftUIListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListUITests.swift; sourceTree = "<group>"; };
 		81A226362752024800985445 /* SwiftUIListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		81A22643275204B100985445 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		81C05DDB276A553900F29344 /* ObservedWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedWrappers.swift; sourceTree = "<group>"; };
 		81D5EE0F2758862200F23FE6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		81D5EE11275887D200F23FE6 /* CommenIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommenIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +131,13 @@
 				81D5EE11275887D200F23FE6 /* CommenIView.swift */,
 				81904E2627643BA400AD4C62 /* LoginViModel.swift */,
 				81904E2827643C9400AD4C62 /* Model.swift */,
+				819D48F42768C63200EF01EC /* SectionList.swift */,
+				811F6C962769A9CF00BBB6EF /* CollectionView.swift */,
+				81C05DDB276A553900F29344 /* ObservedWrappers.swift */,
+				81427EE4276CEAC4001F9F0B /* StateProperty.swift */,
+				81427EE8276CFC37001F9F0B /* StateObjectWrapViewModel.swift */,
+				81427EE6276CFB87001F9F0B /* StateObjectWrap.swift */,
+				819D48F62768C70D00EF01EC /* SectionViewModel.swift */,
 				815099BA2763A709003C2B4E /* StaticList.swift */,
 				81A226182752024800985445 /* Assets.xcassets */,
 				81A2261D2752024800985445 /* Persistence.swift */,
@@ -281,15 +302,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81C05DDC276A553900F29344 /* ObservedWrappers.swift in Sources */,
 				81A2261E2752024800985445 /* Persistence.swift in Sources */,
 				81A226172752024700985445 /* ContentView.swift in Sources */,
 				81A22644275204B100985445 /* ListView.swift in Sources */,
+				81427EE7276CFB87001F9F0B /* StateObjectWrap.swift in Sources */,
 				81D5EE12275887D200F23FE6 /* CommenIView.swift in Sources */,
 				81D5EE102758862200F23FE6 /* Extension.swift in Sources */,
+				811F6C972769A9CF00BBB6EF /* CollectionView.swift in Sources */,
 				81904E2927643C9400AD4C62 /* Model.swift in Sources */,
 				81904E2727643BA400AD4C62 /* LoginViModel.swift in Sources */,
 				81A226152752024700985445 /* SwiftUIListApp.swift in Sources */,
 				81A226212752024800985445 /* SwiftUIList.xcdatamodeld in Sources */,
+				81427EE5276CEAC4001F9F0B /* StateProperty.swift in Sources */,
+				819D48F52768C63200EF01EC /* SectionList.swift in Sources */,
+				81427EE9276CFC37001F9F0B /* StateObjectWrapViewModel.swift in Sources */,
+				819D48F72768C70D00EF01EC /* SectionViewModel.swift in Sources */,
 				815099BB2763A709003C2B4E /* StaticList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

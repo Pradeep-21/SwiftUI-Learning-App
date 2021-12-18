@@ -10,12 +10,12 @@ import SwiftUI
 struct StaticList: View {
     
     @StateObject var listVM = ListViewModel()
-    @EnvironmentObject var listViewM: ListViewModel
+        @EnvironmentObject var listViewM: ListViewModel
     
     var body: some View {
         NavigationView {
             List {
-                ForEach(listVM.items, id: \.self) { item in
+                ForEach(listVM.items, id: \.id) { item in
                     NavigationLink(destination: Text("Hi \(item.email ?? "-")")) {
                         AddView(item: item)
                     }
@@ -47,7 +47,7 @@ struct StaticList_Previews: PreviewProvider {
 }
 
 struct AddView: View {
-    @StateObject var items = ListViewModel()
+    
     var item: Items
     
     var body: some View {
